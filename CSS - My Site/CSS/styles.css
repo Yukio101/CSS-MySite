@@ -1,0 +1,189 @@
+/***********************TAG SELECTORS*********************/
+
+a{
+    color: #11999e;
+    display: inline-block;
+    margin: 10px 40px 10px 40px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #EAF6F6
+}
+body {
+    font-family:'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+    color: #49514E;
+    
+}
+
+h1 {
+    color: #F6416C;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px, auto, 0, auto;
+    line-height: 1;
+   
+
+    
+}
+
+h2 {
+    color: #f1577b;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    margin: 100px, auto;
+    
+}
+
+h3{
+     font-family: 'Montserrat', sans-serif;
+     color:  #F6416C;
+     font-weight: bold;
+}
+
+hr {
+    width: 40px;
+    border:none;
+    border-top: dotted;
+    border-color: #f1e0ac ;
+    border-width: 5px;
+    margin: 100px auto;
+    
+}
+
+p {
+    line-height: 2;
+}
+/***********************CLASS SELECTORS*********************/
+
+
+
+   
+
+.bottom-container {
+    background-color: #00B8A9;
+    padding: 50px 0 20px;
+    
+    
+} 
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px; 
+    left: 250px;
+
+    
+}
+
+
+.middle-container {
+    background-color: #F8F3D4;
+    
+    
+}
+
+.yukio-cute-img {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.yukio-mayhem-img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.top-container {
+    background-color: #FFDE7D;
+    padding-top: 100px;
+    position: relative;
+    
+}
+
+.top-cloud{
+    position: absolute; 
+    top: 40px;
+right: 300px;
+
+
+}
+
+.underline {
+    display: inline-block;
+  border-bottom: 1px solid #F6416C;
+}
+
+ 
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+
+.profile {
+    margin: auto 30%;
+}
+
+.btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: auto;
+  }
+  
+  .btn:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .contact-me {
+    position: relative;
+    padding-bottom: 6rem;
+  }
+  
+  .copyright {
+    color:  #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+   }
+/******************************ID SELECTORS******************************/
+
+#profile-pic {
+    height:100px;
+    width:100px;
+    margin-top:100px;
+}
+
+#p-above-button {
+    margin-bottom: 100\px;
+}
+
